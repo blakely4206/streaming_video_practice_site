@@ -1,0 +1,17 @@
+{% block title %}
+{% endblock %}
+
+{% block body %}
+<head>
+	<script>
+
+	</script>
+</head>
+    <h1>Stream a Video</h1>
+	<div>	
+		<video width="400" height="200" poster={{ poster }} controls>
+			<source src={{ video }}>
+			Sorry, your browser doesn't support embedded videos.
+		</video>
+	</div>
+{% endblock %}
